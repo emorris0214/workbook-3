@@ -3,8 +3,7 @@ package com.pluralsight;
 public class Employee {
     private String employeeId;
     private String name;
-    private float hoursWorked;
-    private float payRate;
+    private float hoursWorked, payRate;
 
     public Employee(String employeeId, String name, float hoursWorked, float payRate) {
         this.employeeId = employeeId;
